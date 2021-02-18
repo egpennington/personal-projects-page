@@ -168,3 +168,8 @@ section {
     background: #3b5998;
     color: white;
 }
+@media(max-height: 800px) {
+    p {
+        font-size: 10px;
+    }
+}
