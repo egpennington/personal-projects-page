@@ -1,0 +1,138 @@
+/* css stylesheet for portfolio */
+/* color picker matcher at "https://spektran.com/003366" */
+body {
+    background-color: #d8e1ff;
+}
+.nav-bar {
+    background-color: #003366;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-items {
+    display: flex;
+}
+.nav-items a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+/* horizontal nav bar "https://www.w3schools.com/css/css_navbar_horizontal.asp" */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+}
+a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+nav a:link {
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+nav a:hover {
+    font-size: 200%;
+    color: white;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #657399;
+}
+h1 {
+    font-size: 10em;
+}
+
+p {
+    font-size: 4em;
+    margin-top: 0;
+}
+.white {
+    color: white;
+}
+.neon-azure {
+    color: #c3e7ff;
+}
+
+.project-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 40px;
+    justify-self: center;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-self: stretch;
+    font-size: 1em;
+}
+.project-tile {
+    border: 4px solid black;
+    width: 770px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    font-family: Papurus, sans-serif, Helvetica, monospace;
+    font-weight: 600;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 2px 2rem 2px 2rem;
+    background-color: #657399;
+    font-size: 1.5em;
+}
+.important {
+    font-size: 2.5em;
+    
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    // text-align: bottom; 
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+}
+#footer-page {
+    border: 1px solid darkgreen;
+    padding: 2em;
+    background-color: #abb1c7;
+    color: white;
+}
+.fa {
+    paddding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
