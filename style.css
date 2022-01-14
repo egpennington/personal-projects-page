@@ -3,6 +3,12 @@
 body {
     background-color: #d8e1ff;
 }
+
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+}
+
 .nav-bar {
     background-color: #003366;
     font-size: 1.4em;
