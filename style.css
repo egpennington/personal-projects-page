@@ -174,8 +174,3 @@ section {
     background: #3b5998;
     color: white;
 }
-@media(max-width: 560px) {
-    .body::after {
-        height:50vh;
-    }
-}
